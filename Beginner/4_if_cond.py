@@ -1,15 +1,15 @@
 # BMI
-# usr_h = float(input("Enter your height in m: "))
-# usr_w = int(input("Enter your weight in kg: "))
-# bmi = usr_w / (usr_h ** 2)
-# if bmi < 18.5:
-#     print("You are underweight.\n", bmi)  
-# elif 18.5 <= bmi < 24.9:
-#     print("You are normal weight. ", bmi)
-# elif 25 <= bmi < 29.9:
-#     print("You are overweight." , bmi)
-# elif 30 <= bmi < 34.9:
-#     print("You are obese (Class 1).", bmi)
+usr_h = float(input("Enter your height in m: "))
+usr_w = int(input("Enter your weight in kg: "))
+bmi = usr_w / (usr_h ** 2)
+if bmi < 18.5:
+    print("You are underweight.\n", bmi)  
+elif 18.5 <= bmi < 24.9:
+    print("You are normal weight. ", bmi)
+elif 25 <= bmi < 29.9:
+    print("You are overweight." , bmi)
+elif 30 <= bmi < 34.9:
+    print("You are obese (Class 1).", bmi)
 
 # cities
 Australia = ["Sydney","Melbourne","Brisbane","Perth"]

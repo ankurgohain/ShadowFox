@@ -1,21 +1,21 @@
-# import random
-# def roll_dice():
-#     return random.randint(1, 6)
-# roll_6 = 0
-# roll_1 = 0
-# roll_66 = 0
-# for i in range(20):
-#     roll1 = roll_dice()
-#     roll2 = roll_dice()
-#     if roll1 == 6:
-#         roll_6 += 1
-#     if roll1 == 1:
-#         roll_1 += 1
-#     if roll1 == 6 and roll2 == 6:
-#         roll_66 += 1
-# print(f"Rolled a 6: {roll_6} times")
-# print(f"Rolled a 1: {roll_1} times")
-# print(f"Rolled two 6s in a row: {roll_66} times")
+import random
+def roll_dice():
+    return random.randint(1, 6)
+roll_6 = 0
+roll_1 = 0
+roll_66 = 0
+for i in range(20):
+    roll1 = roll_dice()
+    roll2 = roll_dice()
+    if roll1 == 6:
+        roll_6 += 1
+    if roll1 == 1:
+        roll_1 += 1
+    if roll1 == 6 and roll2 == 6:
+        roll_66 += 1
+print(f"Rolled a 6: {roll_6} times")
+print(f"Rolled a 1: {roll_1} times")
+print(f"Rolled two 6s in a row: {roll_66} times")
 
 total = 100
 set = 10

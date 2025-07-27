@@ -30,15 +30,11 @@ class Apple(MobilePhone):
         super().__init__(network_type, dualsim, front_cam, rear_cam, ram, storage)
         self.Brand = "Apple"
 
-# Creating Apple objects with different properties
 iphone1 = Apple()
 iphone2 = Apple(network_type="4G", dualsim=True, front_cam="10MP", rear_cam="12MP", ram="4GB", storage="64GB")
-
-# Creating Samsung objects with different properties
 samsung1 = Samsung()
 samsung2 = Samsung(network_type="4G", dualsim=False, front_cam="8MP", rear_cam="32MP", ram="4GB", storage="64GB")
 
-# Example usage
 iphone1.make_call("1234567890")
 iphone2.take_a_picture("front")
 samsung1.receive_call("9876543210")
