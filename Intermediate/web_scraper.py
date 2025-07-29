@@ -45,10 +45,10 @@ def sraper(url):
     }
 
 if __name__ == '__main__':
-    url = 'https://www.mentalfloss.com/food/british-dish-name-origins?utm_source=firefox-newtab-en-intl'
+    url = 'https://www.mentalfloss.com/food/british-dish-name-origins'
     data = sraper(url)
     print(data['title'])
     print('By:', data['author'])
     print('\nIntro:', data['intro'])
     print('\n--- Full content excerpt ---\n')
-    print(data['content'][:1000] + '...')
+    print(data['content'][:5000] + '...')
